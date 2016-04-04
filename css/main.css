@@ -58,10 +58,6 @@ h5 {
 
 }
 
-.border {
-  border-bottom: 2px solid #fff;
-  padding: 20px 0px;
-}
 
 /*===== Header Styles =====*/
 
@@ -137,6 +133,11 @@ h5 {
   margin: 30px 2% 10px 2%;
   padding: 15px 20px;
   border-radius: 10%;
+}
+
+#skills .border {
+  border-bottom: 2px solid #fff;
+  padding: 20px 0px;
 }
 
 .skills-icon {
