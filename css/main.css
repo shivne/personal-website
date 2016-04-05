@@ -9,6 +9,8 @@
 */
 /*===== Global Styles =====*/
 
+@import url("contact.css");
+
 body, html{
   margin: 0;
   padding: 0;
@@ -56,14 +58,10 @@ h5 {
 
 }
 
-.border {
-  border-bottom: 2px solid #fff;
-  padding: 20px 0px;
-}
 
 /*===== Header Styles =====*/
 
-header {
+#header {
   background-color: #CEC2AA;
   height: 100px;
 }
@@ -77,7 +75,8 @@ header {
 
 .logo h1 {
   text-align: center;
-  margin: 0;
+  font-size: 2em;
+  margin-top: 5px;
 }
 
 .menu {
@@ -105,7 +104,7 @@ header {
 
 #banner{
   height: 300px;
-  background: url("../img/lake.jpg") center;
+  background: url("../img/farmland.jpeg") center;
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
@@ -114,7 +113,7 @@ header {
 #banner h1{
   padding: 100px 0px;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 
@@ -134,6 +133,11 @@ header {
   margin: 30px 2% 10px 2%;
   padding: 15px 20px;
   border-radius: 10%;
+}
+
+#skills .border {
+  border-bottom: 2px solid #fff;
+  padding: 20px 0px;
 }
 
 .skills-icon {
@@ -162,6 +166,31 @@ header {
   line-height: 22px;
 }
 
+/*===== Video =====*/
+
+#video {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56%;
+  padding-top: 30px;
+  height: 0px;
+  overflow: hidden;
+  background-color: #FFCC66;
+}
+
+.video-container{
+  width: 98%;
+  margin: 0px auto;
+}
+
+
+#video iframe{
+  position: absolute;
+  margin: 55px 120px;
+  width: 80%;
+  height: 80%;
+}
+
 /*===== About Styles=====*/
 
 #about {
@@ -179,7 +208,7 @@ header {
   width: 50%;
   float: left;
   margin-top: 46px;
-  border: 1px dashed #000;
+  border: 2px dashed #000;
   padding: 20px;
   color: #000;
 }
@@ -192,12 +221,60 @@ header {
   background-color: #fff;
 }
 
+/*===== Map =====*/
+
+#map {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56%;
+  height: 0px;
+  overflow: hidden;
+  background-color: #FFCC66;
+}
+
+.map-container{
+  width: 98%;
+  margin: 0px auto;
+}
+
+
+#map iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/*===== Contact Styles=====*/
+
+#contact_form {
+  text-align: center;
+  background-color: #97783A;
+  width: 70%;
+  float: left;
+  height: 300px;
+}
+
+.address {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background-color: #97783A;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.color {
+  color: #000;
+}
 
 /*===== Footer Styles=====*/
 
 #footer {
-  background-color: #000;
+  background-color: #5D4330;
   height: 125px;
+  width: 100%;
+  float: left;
 }
 
 .media-icons {
@@ -217,3 +294,5 @@ header {
     color: #353A1F;
     margin: 9px 11px;
 }
+
+/*testing gh-pages*/
